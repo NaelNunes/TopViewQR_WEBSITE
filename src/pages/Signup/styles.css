@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap");
+
+.telaleftimg1 {
+  background-color: #011140;
+  /* border-right: 3px solid white; */
+}
+
+.divgeralsignup {
+  display: flex;
+}
+
+.telaleftimg1 {
+  /* flex: 1.8; */
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.logosignin2 {
+  max-width: 100%;
+  height: auto;
+}
+
+.formsignup {
+  width: 40vw;
+  /* flex: 1; */
+  /* height: 100vh; */
+  /* background-color: #dddd; */
+  /* background-color: #white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans";
+  /* border-left: 3px solid #011140; */
+  /* border-right: 3px solid #011140; */
+  background: linear-gradient(
+    180deg,
+    #d9d9d9 0%,
+    #cdc8c8 0.01%,
+    #d9d9d9 48.59%,
+    #aea9a9 100%
+  );
+}
+
+.formsignup1 {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  width: 500px;
+  /* border: solid 5px #011140; */
+  /* padding: 15px; */
+  border-radius: 10px;
+  font-family: "Open Sans";
+  height: 580px;
+  align-items: center;
+  /* background-color: white; */
+  background-color: white;
+  box-shadow: grey 10px 10px 10px;
+}
+
+.voltarlinksignin {
+  text-align: center;
+  /* font-size: 19px; */
+}
+
+.h2signup {
+  text-align: center;
+  /* margin-top: 70px; */
+  margin-bottom: 60px;
+  font-size: 36px;
+}
+
+.labelsignupimg {
+  color: white;
+  font-family: "Open Sans";
+  font-weight: bold;
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+.cadastrarsignup {
+  font-family: "Open Sans";
+  border-radius: 5px;
+  background-color: #065ad8;
+  border: none;
+  color: white;
+  width: 350px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.limparsignup {
+  font-family: "Open Sans";
+  margin-bottom: 50px;
+  border-radius: 5px;
+  background-color: #065ad8;
+  border: none;
+  color: white;
+  width: 350px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.nomecompsignup {
+  font-family: "Open Sans";
+  padding: 2px;
+  width: 350px;
+  height: 40px;
+  border: none;
+  /* border-left: 2px solid; */
+  border-bottom: 2px solid;
+  /* border-radius: 5px; */
+}
+
+.emailsignup {
+  font-family: "Open Sans";
+  padding: 2px;
+  width: 350px;
+  height: 40px;
+  border: none;
+  /* border-left: 2px solid; */
+  border-bottom: 2px solid;
+  /* border-radius: 5px; */
+}
+
+.senhasignup {
+  font-family: "Open Sans";
+  padding: 2px;
+  width: 350px;
+  height: 40px;
+  border: none;
+  /* border-left: 2px solid; */
+  border-bottom: 2px solid;
+  /* border-radius: 5px; */
+}
+
+.contrasenhasignup {
+  font-family: "Open Sans";
+  padding: 2px;
+  width: 350px;
+  height: 40px;
+  border: none;
+  /* border-left: 2px solid; */
+  border-bottom: 2px solid;
+  /* border-radius: 5px; */
+}
+
+.cadastrarlinksignin {
+  text-decoration: none;
+  color: darkblue;
+  font-weight: 800;
+}
+.h3signin1 {
+  /* margin-left: 0 !important; */
+  /* text-align: left; */
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1280px) {
+  .formsignup1 {
+    width: 400px;
+  }
+}
+
+@media (max-width: 767px) {
+  .telaleftimg1 {
+    display: none;
+  }
+
+  .formsignup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .formsignup1 {
+    height: 750px;
+  }
+
+  .logombsignin {
+    display: flex;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .voltarlinksignin {
+    text-align: center;
+    /* text-decoration: none; */
+    cursor: pointer;
+    /* color: #011140; */
+    /* font-weight: bold; */
+    margin-bottom: 20px;
+  }
+
+  .nomecompsignup {
+    /* font-family: "Open Sans"; */
+    /* padding: 2px; */
+    width: 250px;
+    height: 40px;
+    border: none;
+    /* border-left: 2px solid; */
+    border-bottom: 2px solid;
+    /* border-radius: 5px; */
+    background-color:;
+    /* cursor: pointer; */
+  }
+
+  .emailsignup {
+    /* font-family: "Open Sans"; */
+    /* padding: 2px; */
+    width: 250px;
+    height: 40px;
+    border: none;
+    /* border-left: 2px solid; */
+    border-bottom: 2px solid;
+    /* border-radius: 5px; */
+    background-color:;
+    /* cursor: pointer; */
+  }
+
+  .senhasignup {
+    /* font-family: "Open Sans"; */
+    /* padding: 2px; */
+    width: 250px;
+    height: 40px;
+    border: none;
+    /* border-left: 2px solid; */
+    border-bottom: 2px solid;
+    /* border-radius: 5px; */
+    background-color:;
+    /* cursor: pointer; */
+  }
+
+  .contrasenhasignup {
+    /* font-family: "Open Sans"; */
+    /* padding: 2px; */
+    margin-bottom: 40px;
+    width: 250px;
+    height: 40px;
+    /* border-left: 2px solid; */
+    border: none;
+    border-bottom: 2px solid;
+  }
+
+  .pSignin {
+    /* width: 100%; */
+    /* background-color: orange; */
+  }
+
+  .formsignup {
+    /* border: #011140 double 10px; */
+    height: 100vh;
+  }
+
+  .logombsignin {
+    opacity: 0;
+    transform: scale(0.8);
+    animation: zoomIn 1s ease-in-out forwards;
+  }
+
+  @keyframes zoomIn {
+    from {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+}
+
+.logosignin2 {
+  opacity: 0;
+  transform: scale(0.8);
+  animation: zoomIn 1s ease-in-out forwards;
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

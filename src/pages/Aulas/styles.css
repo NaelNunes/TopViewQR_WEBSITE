@@ -1,0 +1,371 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+.tabelaAulas {
+  border: solid 2px black;
+}
+
+.tabelaCriarAulas {
+  border: solid 2px black;
+}
+
+.modalaula {
+  display: none;
+  position: absolute;
+  top: 150px;
+  bottom: 100px;
+  left: 100px;
+  right: 100px;
+  background-color: #1b3686;
+  border: #1b7ea5 solid 5px;
+  color: white;
+  font-family: Open Sans;
+}
+
+.modalaula.active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: white; */
+}
+
+.containerdivcreateaulas {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  flex: 1;
+}
+
+.containerinpcreateaulas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.telarightAulas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.text_telageraraula {
+  font-family: Open Sans;
+}
+
+.inputaulamodal {
+  background-color: #fbf3f3;
+  border: none;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 15px;
+  font-family: Open Sans;
+  width: 500px;
+  /* color: black; */
+}
+
+.containerinpcreateaulas {
+  gap: 25px;
+}
+
+.buttonmodalgerar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  /* border: white solid 5px; */
+  border: none;
+  border-radius: 10px;
+  font-family: Open Sans;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.divmodalgerar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+  gap: 10px;
+}
+
+.text_telageraraula {
+  margin-left: 180px;
+}
+
+.containerinpcreateaulas {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.text_telageraraula {
+  font-size: 20px;
+}
+
+.telarightAulas {
+  /* background-color: white; */
+}
+
+.quadrwhiteqr {
+  background-color: white;
+  height: 400px;
+  width: 400px;
+  color: black;
+}
+
+.quadrwhiteqr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.qrcodegerado {
+  width: 400px;
+}
+
+.mainpageleftaulas_1 {
+  background-color: black;
+  width: 200px;
+  height: 200px;
+}
+
+.mainpagerightaulas_1 {
+  background-color: black;
+  width: 200px;
+  height: 200px;
+}
+
+.containermainpageaulas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainpagerightaulas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.mainpageleftaulas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.topview-qr-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.topview-qr-link img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.topview-qr-link h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333333;
+}
+
+.topview-qr-link p {
+  font-size: 14px;
+  color: #666666;
+  margin: 0;
+}
+
+.topview-qr-link a {
+  display: inline-block;
+  background-color: #4caf50;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.topview-qr-link a:hover {
+  background-color: #45a049;
+}
+
+/* .divGeralAulas {
+  background: linear-gradient(
+      180deg,
+      rgba(7, 24, 77, 0.2) 0%,
+      rgba(222, 225, 235, 0.2) 51.49%,
+      rgba(1, 17, 64, 0.2) 100%
+    ),
+    #fff;
+} */
+
+.tables-containers {
+  display: flex;
+  height: calc(100vh - 50px);
+}
+
+.table1,
+.table2 {
+  flex: 1;
+  height: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.table1 {
+  font-family: Open Sans;
+}
+
+.table2 {
+  font-family: Open Sans;
+}
+
+.tables-containers table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border: #011140 solid 3px;
+  font-family: "Open Sans";
+}
+
+.tables-containers th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  border-bottom: #011140 solid 2px;
+  border-right: #011140 solid 2px;
+}
+
+.tables-containers thead tr {
+  background-color: #011140;
+  /* border-bottom: black solid 2px; */
+  color: white;
+}
+
+.tables-containers tr:hover td {
+  background-color: #d4dbf0;
+  /* Cor de fundo ao passar o mouse */
+  transition: background-color 0.5s ease;
+  cursor: pointer;
+}
+
+.container-button-createAulas {
+  margin-top: 50px;
+
+  margin-right: 20px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: right;
+}
+
+.divGeralAulas {
+  opacity: 0;
+  animation: fadeIn 0.8s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.desc-table-aulas {
+  border: #011140 solid 3px;
+  margin-top: 20px;
+  padding: 10px 10px 10px 10px;
+  font-family: Open Sans;
+  font-weight: 600;
+}
+
+.table2 {}
+
+.btn-criaraula {
+  position: relative;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  background-color: #1b3686;
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.btn-criaraula,
+.button__icon,
+.button__text {
+  transition: all 0.3s;
+}
+
+.btn-criaraula .button__text {
+  transform: translateX(30px);
+  color: #fff;
+  font-weight: 600;
+}
+
+.btn-criaraula .button__icon {
+  position: absolute;
+  transform: translateX(109px);
+  height: 100%;
+  width: 39px;
+  background-color: #011140;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-criaraula .svg {
+  width: 30px;
+  stroke: #fff;
+}
+
+.btn-criaraula:hover {
+  background: #011140;
+}
+
+.btn-criaraula:hover .button__text {
+  color: transparent;
+}
+
+.btn-criaraula:hover .button__icon {
+  width: 148px;
+  transform: translateX(0);
+}
+
+.btn-criaraula:active .button__icon {
+  background-color: #2e8644;
+}
+
+.btn-criaraula:active {
+  border: 1px solid #2e8644;
+}
+
+@media (max-width: 767px) {
+    {
+    .button__text {
+      margin-top: 30px;
+    }
+  }
+}

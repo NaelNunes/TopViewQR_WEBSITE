@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap");
+
+.footer {
+  background-color: #011140;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 700px; */
+  font-weight: 600;
+
+  padding: 20px;
+  width: 100%;
+}
+
+.logofooter {
+  color: white;
+  width: 60px;
+}
+
+.titlefooter {
+  color: white;
+  font-size: 30px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.linksfooter {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Open Sans";
+}
+
+.linksfooter {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.logofooterinsta {
+  padding-left: 10px;
+  width: 60px;
+  vertical-align: middle;
+}
+
+.linksfooter a {
+}
