@@ -42,3 +42,7 @@
     "not op_mini all"
   ]
 }
+
+{
+  "presets": ["@babel/preset-react"]
+}
