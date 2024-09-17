@@ -1,0 +1,23 @@
+.qrReader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.container_qrReader {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.h1_qrReader {
+  margin-top: 20px;
+  font-family: open sans;
+  font-size: 20px;
+}
+
+.link_qrReader {
+  font-family: open sans;
+  font-weight: bold;
+}

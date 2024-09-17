@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+
+.DivTabelaAlunos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fundo {
+  background-color: #181818;
+}
+
+.tituloaluno {
+  color: white;
+  margin: 20px;
+  font-size: 40px;
+}
+
+.BarraCimaAlunos {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  margin-left: 36%;
+  margin-right: 36%;
+  font-family: "Fjalla One", sans-serif;
+}
+
+.BarraBaixoAlunos {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  margin-left: 35%;
+  margin-right: 35%;
+  font-family: "Fjalla One", sans-serif;
+}
+
+.TabelaAlunos {
+  border: 2px solid black;
+  font-size: 20px;
+  background-color: rgb(240, 240, 240);
+  border-collapse: collapse;
+  text-align: center;
+  font-family: "Fjalla One", sans-serif;
+  width: 1000px;
+}
+
+.TabelaAlunos th {
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+
+.TabelaAlunos tr:nth-child(even) {
+  background-color: rgb(197, 197, 197);
+}
+
+.TabelaAlunos tr:hover {
+  background-color: rgb(180, 179, 179);
+}
+
+.espaco {
+  margin-right: 10px;
+}

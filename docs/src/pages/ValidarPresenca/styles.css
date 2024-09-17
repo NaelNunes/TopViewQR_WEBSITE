@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap");
+
+.validar-container {
+  height: 85vh;
+}
+
+.h1ValidarPresenca {
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.validar-container {
+  opacity: 0;
+  transform: scale(0.8);
+  animation: zoomIn 1s ease-in-out forwards;
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.linkValidarPresenca {
+  /* text-transform: uppercase; */
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.son-container-validar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 85vh;
+  gap: 20px;
+  padding: 30px;
+  /* background-color: orange; */
+  /* border: 20px solid black; */
+}

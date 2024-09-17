@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap");
+
+.telaleftimg {
+  background-color: #011140;
+  /* border-right: 3px solid white; */
+}
+
+.contentSignin {
+  display: flex;
+  height: 100vh;
+}
+
+.telaleftimg {
+  /* flex: 1.8; */
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.logosignin1 {
+  max-width: 100%;
+  height: auto;
+}
+
+.divformsignin {
+  width: 40vw;
+  /* flex: 1; */
+  /* height: 100vh; */
+  /* background-color: #dddd; */
+  /* background-color: #white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans";
+  /* border-left: 3px solid #011140; */
+  /* border-right: 3px solid #011140; */
+  /* background-color: #0a2740; */
+  /* border: #011140 solid 5px; */
+  background: linear-gradient(
+    180deg,
+    #d9d9d9 0%,
+    #cdc8c8 0.01%,
+    #d9d9d9 48.59%,
+    #aea9a9 100%
+  );
+}
+
+.label-signin-img {
+  color: white;
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.logosignin1 {
+  /* width: 500px; */
+  bottom: 0;
+  /* display: none; */
+  /* width: 100%; */
+}
+
+.divformsignin {
+  /* background-image: url("assets/imagem-fundo-right-signin.jpg"); */
+}
+
+.login-form {
+}
+
+.login-form {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  width: 500px;
+  /* border: solid 5px #011140; */
+  /* padding: 15px; */
+  border-radius: 10px;
+  font-family: "Open Sans";
+  height: 580px;
+  align-items: center;
+  background-color: white;
+  box-shadow: grey 10px 10px 10px;
+  /* border: #011140 5px solid; */
+  /* background-color: #011140; */
+  /* color: white; */
+}
+
+.cadastrarlinksignin {
+  text-align: center;
+  /* font-size: 19px; */
+  cursor: pointer;
+}
+
+.h2signin {
+  text-align: center;
+  /* margin-top: 70px; */
+  margin-bottom: 60px;
+  font-size: 36px;
+  /* color: white; */
+}
+
+.acessarsignin {
+  font-family: "Open Sans";
+  border-radius: 5px;
+  background-color: #065ad8;
+  border: none;
+  color: white;
+  width: 350px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.linksSignin {
+}
+
+.logombsignin {
+  display: none;
+  width: 250px;
+}
+
+.limparsignin {
+  font-family: "Open Sans";
+  margin-bottom: 50px;
+  border-radius: 5px;
+  background-color: #065ad8;
+  border: none;
+  color: white;
+  width: 350px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.usuariosignin1 {
+  font-family: "Open Sans";
+  padding: 2px;
+  width: 350px;
+  height: 40px;
+  border: none;
+  /* border-left: 2px solid; */
+  border-bottom: 2px solid;
+  /* border-radius: 5px; */
+  /* background-color: #011140; */
+  /* cursor: pointer; */
+  /* color: white; */
+}
+
+.senhasignin1 {
+  font-family: "Open Sans";
+  padding: 2px;
+  margin-bottom: 40px;
+  width: 350px;
+  height: 40px;
+  /* border-left: 2px solid; */
+  border: none;
+  border-bottom: 2px solid;
+  /* background-color: #011140; */
+  /* color: white; */
+}
+
+.cadastrarlinksignin {
+  text-decoration: none;
+  color: darkblue;
+  font-weight: 800;
+}
+.h3signin1 {
+  /* margin-left: 0 !important; */
+  /* text-align: left; */
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1150px) {
+  .login-form {
+    width: 400px;
+  }
+}
+
+@media (max-width: 767px) {
+  .telaleftimg {
+    display: none;
+  }
+
+  .divformsignin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .login-form {
+    height: 750px;
+  }
+
+  .logombsignin {
+    display: flex;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .pSignin {
+    text-align: center;
+  }
+
+  .usuariosignin1 {
+    /* font-family: "Open Sans"; */
+    /* padding: 2px; */
+    width: 250px;
+    height: 30px;
+    border: none;
+    /* border-left: 2px solid; */
+    border-bottom: 2px solid;
+    /* border-radius: 5px; */
+    background-color:;
+    /* cursor: pointer; */
+  }
+
+  .senhasignin1 {
+    /* font-family: "Open Sans"; */
+    /* padding: 2px; */
+    /* margin-bottom: 40px; */
+    width: 250px;
+    height: 40px;
+    /* border-left: 2px solid; */
+    border: none;
+    border-bottom: 2px solid;
+  }
+
+  .pSignin {
+    width: 100%;
+    /* background-color: orange; */
+  }
+
+  .divformsignin {
+    width: 100vw;
+  }
+
+  .logombsignin {
+    opacity: 0;
+    transform: scale(0.8);
+    animation: zoomIn 1s ease-in-out forwards;
+  }
+
+  @keyframes zoomIn {
+    from {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+}
+
+.logosignin1 {
+  opacity: 0;
+  transform: scale(0.8);
+  animation: zoomIn 1s ease-in-out forwards;
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.label-signin-img {
+  opacity: 0;
+  transform: scale(0.8);
+  animation: zoomIn 1s ease-in-out forwards;
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

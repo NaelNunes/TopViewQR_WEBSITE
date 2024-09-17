@@ -1,0 +1,262 @@
+/* elemento pai do header */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Open+Sans:wght@300;400;500;600;700&family=Source+Code+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+.container_header {
+  background-color: #011140;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+  padding: 15px;
+  width: 100%;
+  margin: auto;
+  font-weight: bold;
+}
+
+/* elemento pai da tag img */
+.div_img {
+  max-width: 100%;
+}
+
+/* elemento pai dos links */
+.linksHeader {
+  display: flex;
+}
+
+/* link do inicio */
+.link_inicio {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: Open Sans;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+  display: flex;
+  transition: opacity 0.5s ease;
+}
+
+.link_inicio:hover {
+  text-decoration: overline;
+  text-decoration: overline;
+
+  opacity: 1; /* Mudar para a opacidade desejada */
+}
+
+/* link do sobre */
+.link_sobre {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: Open Sans;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: flex;
+  transition: opacity 0.5s ease;
+}
+
+.link_sobre:hover {
+  text-decoration: overline;
+  text-decoration: overline;
+
+  opacity: 1; /* Mudar para a opacidade desejada */
+}
+
+/* link de aulas */
+.link_aulas {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: Open Sans;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: flex;
+  transition: opacity 0.5s ease;
+}
+
+.link_aulas:hover {
+  text-decoration: overline;
+  text-decoration: overline;
+
+  opacity: 1; /* Mudar para a opacidade desejada */
+}
+
+/* link de consultas  */
+.link_consultas {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: Open Sans;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: flex;
+  transition: opacity 0.5s ease;
+}
+
+.link_consultas:hover {
+  text-decoration: overline;
+  text-decoration: overline;
+
+  opacity: 1; /* Mudar para a opacidade desejada */
+}
+
+/* botão entrar */
+.button_entrar {
+  font-size: 1.2rem;
+  font-family: Open Sans;
+  border: none;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+  .linksHeader {
+    /* padding-right: 5px; */
+    gap: 5px;
+  }
+
+  .link_inicio {
+    font-size: 11px; /* or any other font size you prefer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .link_sobre {
+    font-size: 11px; /* or any other font size you prefer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .link_aulas {
+    font-size: 11px; /* or any other font size you prefer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .link_consultas {
+    font-size: 11px; /* or any other font size you prefer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button_entrar {
+    /* or any other padding you prefer */
+    font-size: 11px; /* or any other font size you prefer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .usariologadosty {
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .buttonHeader123 {
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .textOla {
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.btn-header {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .btn-header {
+    display: block;
+    font-size: 15px;
+    font-family: Open Sans;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: underline;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    font-weight: bold;
+  }
+
+  .div_img_1 {
+    width: 50px;
+  }
+
+  .linksHeader {
+    display: none;
+    position: absolute;
+    width: 100%;
+    background-color: #011140;
+    top: 85px;
+    right: 0px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-bottom: white 2px solid;
+    border-top: white 2px solid;
+    /* border-left: white 2px solid; */
+    /* border-right: white 2px solid; */
+    gap: 12px;
+  }
+
+  .linksHeader.active {
+    display: flex;
+    opacity: 0;
+    animation: fadeIn ease-in 1;
+    animation-fill-mode: forwards;
+    animation-duration: 0.3s;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .usariologadosty {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.textOla {
+  font-family: Open Sans;
+  color: white;
+}
+
+.buttonHeader123 {
+  border: 2px black solid;
+  font-family: Open Sans;
+  color: black;
+  background-color: white;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.usariologadosty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
